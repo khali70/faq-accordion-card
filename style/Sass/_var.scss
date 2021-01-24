@@ -1,0 +1,26 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+$font: "Kumbh Sans", sans-serif;
+$nomrmal: 400;
+$bold: 700;
+$font-size: 12px;
+
+// mobiles
+$Mobile: 375px;
+$Desktop: 1440px;
+
+// text colors
+// default
+$grayBlue: hsl(237, 12%, 33%);
+$darkerGrayBlue: hsl(240, 6%, 50%);
+// primary
+$text-darkBlue: hsl(238, 29%, 16%);
+$text-softRed: hsl(14, 88%, 65%);
+// Divders
+$divder: hsl(240, 5%, 91%);
+
+// gradient
+$Softviolet: hsl(273, 75%, 66%);
+$Softblue: hsl(240, 73%, 65%);
+// TODO import bootstrap
+// TODO import fontAwsome
