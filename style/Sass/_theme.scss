@@ -1,1 +1,12 @@
 @import "./var";
+$theme-colors: (
+  // "primary":    $primary,
+  // "secondary":  $secondary,
+  // "success":    $success,
+  // "info":       $info,
+  "warning": $text-softRed,
+  // "danger":     $danger,
+  // "light":      $light,
+  "dark": $text-darkBlue
+);
+$body-color: $text-darkBlue;
