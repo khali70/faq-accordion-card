@@ -1480,6 +1480,52 @@ input[type=button].btn-block {
   width: 100%;
 }
 
+@media (max-width: 991.98px) {
+  body .card {
+    flex-direction: column;
+  }
+  body .card.card-mb {
+    margin: 5rem;
+  }
+  body .card .lg,
+body .card .box {
+    display: none;
+  }
+  body .card .mb {
+    display: block;
+  }
+  body .card img {
+    position: absolute;
+  }
+  body .card .card-img {
+    min-height: 150px;
+    padding-top: 0;
+  }
+  body .card .mb.woman-mb {
+    transform: translate(-28px, 0%);
+    top: -105px;
+    z-index: 1;
+  }
+  body .card .mb.bg-mb, body .card .mb.woman-mb {
+    left: 25%;
+  }
+  body .card .bg-md {
+    top: 0px;
+  }
+}
+@media (min-width: 992px) {
+  body .card {
+    height: 510px;
+    max-width: 925px;
+  }
+  body .card .lg,
+body .card .box {
+    display: block;
+  }
+  body .card .mb {
+    display: none;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -1497,13 +1543,14 @@ body {
   align-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .box {
   position: absolute;
   top: 193px;
   left: -94px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .card {
@@ -1511,8 +1558,6 @@ body {
   display: flex;
   position: relative;
   border-radius: 1.1rem;
-  height: 510px;
-  width: 925px;
 }
 .card .card-img {
   height: 100%;
@@ -1525,6 +1570,7 @@ body {
 .card .card-img .woman {
   top: 55px;
   left: -72px;
+  z-index: 1;
 }
 .card .card-img .bg-desktop {
   top: -297px;
@@ -1565,6 +1611,10 @@ body {
 }
 .card .card-body article .Ans:hover {
   color: #4a4b5e;
+}
+
+.footer {
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

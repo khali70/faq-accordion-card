@@ -5,6 +5,8 @@
 
 @import "bootstrap/scss/grid";
 @import "bootstrap/scss/buttons";
+
+@import "mobileStyle";
 * {
   padding: 0;
   margin: 0;
@@ -22,21 +24,21 @@ body {
   align-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .box {
   position: absolute;
   top: 193px;
   left: -94px;
-  z-index: 1;
+  z-index: 2;
 }
 .card {
   background-color: $white;
   display: flex;
   position: relative;
   border-radius: 1.1rem;
-  height: 510px;
-  width: 925px;
+
   .card-img {
     height: 100%;
     padding: 3rem;
@@ -49,6 +51,7 @@ body {
     .woman {
       top: 55px;
       left: -72px;
+      z-index: 1;
     }
     .bg-desktop {
       top: -297px;
@@ -97,4 +100,5 @@ body {
 }
 
 .footer {
+  margin-top: 1.5rem;
 }
